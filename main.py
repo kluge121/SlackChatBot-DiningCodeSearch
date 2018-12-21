@@ -13,10 +13,10 @@ from keyword_maker import KeywordMaker
 
 app = Flask(__name__)
 
-slack_token = "xoxb-506062083639-508075067825-40MNlihpFEwKYVp01V2i4pxA"
-slack_client_id = "506062083639.509730436711"
-slack_client_secret = "139e3ea0d6e685fad03e5a0cebcbd0ca"
-slack_verification = "PP3eQd4eRfAKR3GPcN0DFmd8"
+slack_token = ""
+slack_client_id = ""
+slack_client_secret = ""
+slack_verification = ""
 sc = SlackClient(slack_token)
 
 
